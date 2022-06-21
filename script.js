@@ -40,7 +40,7 @@ function getPrompts() {
     choiceArray = [];
     characterLength = parseInt(prompt("How many Characters do you want between 8 and 128?")); //NaN
     
-    if(isNaN(characterLength) || characterLength < 7 || characterLength > 129 ) {
+    if(isNaN(characterLength) || characterLength < 8 || characterLength > 128 ) {
         alert("Password length must be between 8- 128 digits.");
         return false;
     }
