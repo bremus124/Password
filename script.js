@@ -36,7 +36,6 @@ var generateBtn = document.querySelector("#generate");
 
     }
   
-
 function getPrompts() {
     choiceArray = [];
     characterLength = parseInt(prompt("How many Characters do you want between 8 and 128?")); //NaN
